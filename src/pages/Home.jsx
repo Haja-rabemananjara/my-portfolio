@@ -1,3 +1,4 @@
+import { HomeSection } from "../components/HomeSection"
 import { NavBar } from "../components/Navbar"
 import { ThemeToggle } from "../components/ThemeToggle"
 
@@ -14,6 +15,9 @@ export const Home = () => {
         <NavBar />
 
         {/* Main Content */}
+        <main>
+            <HomeSection />
+        </main>
 
         {/* Footer */}
     </div>

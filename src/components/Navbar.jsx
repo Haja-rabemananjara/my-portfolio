@@ -4,10 +4,10 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Project", href: "#project" },
+    { name: "Acceuil", href: "#home" },
+    { name: "A propos", href: "#about" },
+    { name: "Compétences", href: "#skills" },
+    { name: "Projets", href: "#project" },
     { name: "Contact", href: "#contact" },
 ]
 
@@ -79,8 +79,6 @@ export const NavBar = () => {
                 </div>
 
             </div>
-
-
         </nav>
     );
 
