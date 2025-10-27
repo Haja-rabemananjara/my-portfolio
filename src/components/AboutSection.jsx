@@ -47,8 +47,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="text-2xl font-bold text-pink-700 ">Formations</h4>
                                     <span className="font-bold">Epitech </span>Architecte SI ( 2025 - En cours)<br />
-                                    <span className="font-bold">Aix-Marseille Université </span>Formation DSCG (2024 - 2025)<br />
-                                    <span className="font-bold">IAE Poitiers </span>Master CCA (2021 2022)
+                                    <span className="font-bold">STUDI </span>Système et réseaux (2025)<br />
+                                    <span className="font-bold">Aix-Marseille Université  </span>Formation DSCG (2024 - 2025)
                                 </div>
                             </div>
                         </div>

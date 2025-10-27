@@ -50,6 +50,10 @@ Accessibilité en local via le lien : http://localhost:5173
 
 4- Version en ligne
 Accessibilité : https://hajarabemananjara-portfolio.vercel.app/
+<<<<<<< HEAD
+=======
+
+>>>>>>> faf8376 (màj)
 ### Configuration du formulaire
 
 - Création d'un compte sur EmailJS
