@@ -33,7 +33,7 @@ export const HomeSection = () => {
     return (
         <section
             id="home"
-            className="relative mt-25 flex flex-col items-center justify-center px-4 mt-20 mb-70"
+            className="relative flex flex-col items-center justify-center px-4 mt-20 mb-70"
         >
             <div className="items-center rounded">
                 <img src="carré.jpg"
