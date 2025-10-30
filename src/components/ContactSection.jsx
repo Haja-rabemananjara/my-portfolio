@@ -120,7 +120,7 @@ export const ContactSection = () => {
                                         name="user_email"
                                         required
                                         className="mt-2 w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-white"
-                                        placeholder="example@gmail.com"
+                                        placeholder="exemple@gmail.com"
                                     />
                                 </div>
 
