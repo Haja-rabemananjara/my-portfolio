@@ -26,7 +26,7 @@ const projects = [
         image: "/le-kas.png",
         tags: ["Java", "Group-project"],
         demoUrl: "#",
-        githubUrl: "https://github.com/Haja-rabemananjara/LE-KAS---2D-GAME",
+        // githubUrl: "https://github.com/Haja-rabemananjara/LE-KAS---2D-GAME",
     }
 ]
 
@@ -74,11 +74,11 @@ export const ProjectSection = () => {
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <ExternalLink size={20} />
                                     </a> */}
-                                    <a href={project.githubUrl}
+                                    {/* <a href={project.githubUrl}
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <Github size={20} />
-                                    </a>
+                                    </a> */}
 
                                 </div>
                             </div>
