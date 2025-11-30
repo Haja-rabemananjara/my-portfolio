@@ -11,13 +11,22 @@ const projects = [
         githubUrl: "#",
     },
     {
-        id: 1,
+        id: 2,
         title: "Jobboard - Xjob",
         description: "Site web de recrutement, permettant aux recruteurs de créer des annonces et aux candidats de postuler",
         image: "/Xjob.png",
         tags: ["React", "Tailwindcss", "Shadcn/ui", "Django", "SQLLite", "Group-project"],
         demoUrl: "#",
         githubUrl: "#",
+    },
+    {
+        id: 3,
+        title: "Le Kas - 2D Game",
+        description: "LE KAS est un jeu de plateforme 2D développé en Java (Swing) où vous incarnez Lucas, un cambrioleur qui vient de dérober des bijoux au musée du Louvre.",
+        image: "/le-kas.png",
+        tags: ["Java", "Group-project"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/Haja-rabemananjara/LE-KAS---2D-GAME",
     }
 ]
 
@@ -64,12 +73,12 @@ export const ProjectSection = () => {
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <ExternalLink size={20} />
-                                    </a>
+                                    </a> */}
                                     <a href={project.githubUrl}
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <Github size={20} />
-                                    </a> */}
+                                    </a>
 
                                 </div>
                             </div>
