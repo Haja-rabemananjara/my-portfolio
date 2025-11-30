@@ -7,6 +7,7 @@ import imgreact from "/react.png";
 import imgVMware from "/vmware.png";
 import imgCisco from "/ciscop.png";
 import imgSQL from "/SQL.webp";
+import imgPowerBI from "/PowerBI.jpeg";
 
 export const SkillsSection = () => {
     const skills = [
@@ -19,6 +20,7 @@ export const SkillsSection = () => {
         { id: 7, name: "VMware Workstation", image: imgVMware },
         { id: 8, name: "Cisco Packet Tracer", image: imgCisco },
         { id: 9, name: "SQL", image: imgSQL },
+        { id: 10, name: "Power BI", image: imgPowerBI },
     ]
 
     return (
