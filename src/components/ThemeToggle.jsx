@@ -30,7 +30,6 @@ export const ThemeToggle = () => {
     };
 
     return (
-
         <button
             onClick={toogleTheme}
             className={cn(
@@ -38,13 +37,11 @@ export const ThemeToggle = () => {
                 "focus:outline-hidden"
             )}
         >
-
             {isDarkMode ? (
                 <Sun className="h-6 w-6 text-yellow-400" />
             ) : (
                 <MoonStar className="h-6 w-6 text-blue-950" />
             )}
         </button>
-
     );
 };

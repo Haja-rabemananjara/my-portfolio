@@ -77,7 +77,6 @@ export const NavBar = () => {
                         ))}
                     </div>
                 </div>
-
             </div>
         </nav>
     );

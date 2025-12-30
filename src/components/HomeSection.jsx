@@ -2,9 +2,6 @@ import { FaFileDownload, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 
-
-
-
 export const HomeSection = () => {
 
     const texts = [
@@ -29,7 +26,6 @@ export const HomeSection = () => {
         };
     }, [index]);
 
-
     return (
         <section
             id="home"
@@ -40,6 +36,7 @@ export const HomeSection = () => {
                     className="h-50 w-50 object-cover border-8 border-yellow-500 shadow-xl "
                     style={{ borderRadius: "50%" }} />
             </div>
+
             <div className="container max-w-4xl mx-auto text-center z-10">
                 <div className="space-y-6">
                     <h1 className="text-4xl md:text-6xl font-bold tracking-wide">
@@ -62,8 +59,6 @@ export const HomeSection = () => {
                         je construis mon parcours entre cybersécurité, data et développement web.
                         J’aime apprendre, expérimenter et relever de nouveaux défis techniques.
                     </p>
-
-
 
                     <div className="flex items-center justify-center space-x-6 opacity-0 animate-fade-in-delay-4" >
                         <a
@@ -95,9 +90,7 @@ export const HomeSection = () => {
                         </a>
                     </div>
                 </div>
-
             </div>
-
         </section >
     )
 }
