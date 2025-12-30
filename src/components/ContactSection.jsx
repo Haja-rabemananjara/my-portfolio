@@ -66,7 +66,7 @@ export const ContactSection = () => {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4">
+                                { /* <div className="flex items-start space-x-4">
                                     <div className="p-3 rounded-full bg-primary/10">
                                         <Mail className="h-6 w-6" />
                                     </div>
@@ -78,7 +78,7 @@ export const ContactSection = () => {
                                             hajarabema@proton.me
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="flex items-start space-x-4">
                                     <div className="p-3 rounded-full bg-primary/10">

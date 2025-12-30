@@ -27,6 +27,15 @@ const projects = [
         tags: ["Java", "Group-project"],
         demoUrl: "#",
         // githubUrl: "https://github.com/Haja-rabemananjara/LE-KAS---2D-GAME",
+    },
+    {
+        id: 4,
+        title: "ChatApp",
+        description: "ChatApp est une application web de chat développée avec Spring Boot - Websocket et Angular.",
+        image: "/ChatApp.png",
+        tags: ["Java", "Spring Boot", "Websocket", "Angular", "Tailwindcss"],
+        demoUrl: "#",
+        // githubUrl: https://github.com/Haja-rabemananjara/Chat-app",
     }
 ]
 

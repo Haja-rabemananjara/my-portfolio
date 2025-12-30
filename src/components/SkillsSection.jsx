@@ -4,6 +4,7 @@ import imgcss from "/css.png";
 import imgJS from "/JS.png";
 import imgjava from "/java.svg";
 import imgreact from "/react.png";
+import imgangular from "/angular.webp";
 import imgVMware from "/vmware.png";
 import imgCisco from "/ciscop.png";
 import imgSQL from "/SQL.webp";
@@ -17,10 +18,11 @@ export const SkillsSection = () => {
         { id: 4, name: "JavaScript", image: imgJS },
         { id: 5, name: "Java", image: imgjava },
         { id: 6, name: "React.js", image: imgreact },
-        { id: 7, name: "VMware Workstation", image: imgVMware },
-        { id: 8, name: "Cisco Packet Tracer", image: imgCisco },
-        { id: 9, name: "SQL", image: imgSQL },
-        { id: 10, name: "Power BI", image: imgPowerBI },
+        { id: 7, name: "Angular", image: imgangular },
+        { id: 8, name: "VMware Workstation", image: imgVMware },
+        { id: 9, name: "Cisco Packet Tracer", image: imgCisco },
+        { id: 10, name: "SQL", image: imgSQL },
+        { id: 11, name: "Power BI", image: imgPowerBI },
     ]
 
     return (
