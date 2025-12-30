@@ -41,13 +41,10 @@ export const SkillsSection = () => {
                             </div>
                             <span className="mt-2 text-sm">{skills.name}</span>
                         </div>
-
                     ))}
                 </div>
-
-
+                
             </div>
-
         </section>
     );
 };

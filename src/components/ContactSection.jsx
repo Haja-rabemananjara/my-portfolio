@@ -109,6 +109,7 @@ export const ContactSection = () => {
                                         required
                                         className="mt-2 w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-white"
                                         placeholder="Votre Nom ..."
+                                        autoComplete="name"
                                     />
                                 </div>
 
@@ -121,6 +122,7 @@ export const ContactSection = () => {
                                         required
                                         className="mt-2 w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-white"
                                         placeholder="exemple@gmail.com"
+                                        autoComplete="name"
                                     />
                                 </div>
 
@@ -132,6 +134,7 @@ export const ContactSection = () => {
                                         required
                                         className="mt-2 w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-white resize-none"
                                         placeholder="Votre message ..."
+                                        autoComplete="off"
                                     />
                                 </div>
 
@@ -163,7 +166,7 @@ export const ContactSection = () => {
             <div className="flex justify-center items-center">
                 <a
                     href="#home"
-                    classNam="rounded-full bg-primary/10 hover:bg-primary/20 text-white transition-colors">
+                    className="rounded-full bg-primary/10 hover:bg-primary/20 text-white transition-colors">
                     <ArrowUpCircleIcon />
                 </a>
             </div>

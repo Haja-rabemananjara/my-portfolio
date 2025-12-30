@@ -1,4 +1,5 @@
 
+import { FiGithub as Github } from "react-icons/fi";
 
 const projects = [
     {
@@ -8,7 +9,7 @@ const projects = [
         image: "/hangman.jpg",
         tags: ["Python", "First game"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "",
     },
     {
         id: 2,
@@ -17,7 +18,7 @@ const projects = [
         image: "/Xjob.png",
         tags: ["React", "Tailwindcss", "Shadcn/ui", "Django", "SQLLite", "Group-project"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "",
     },
     {
         id: 3,
@@ -26,7 +27,7 @@ const projects = [
         image: "/le-kas.png",
         tags: ["Java", "Group-project"],
         demoUrl: "#",
-        // githubUrl: "https://github.com/Haja-rabemananjara/LE-KAS---2D-GAME",
+        githubUrl: "https://github.com/Haja-rabemananjara/LE-KAS---2D-GAME",
     },
     {
         id: 4,
@@ -35,7 +36,7 @@ const projects = [
         image: "/ChatApp.png",
         tags: ["Java", "Spring Boot", "Websocket", "Angular", "Tailwindcss"],
         demoUrl: "#",
-        // githubUrl: https://github.com/Haja-rabemananjara/Chat-app",
+        githubUrl: "https://github.com/Haja-rabemananjara/Chat-app",
     }
 ]
 
@@ -50,10 +51,10 @@ export const ProjectSection = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {projects.map((project, key) => (
+                    {projects.map((project) => (
 
                         <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
-                            key={key}>
+                            key={project.id} project={project}>
                             <div className="h-48 overflow-hidden">
                                 <img src={project.image}
                                     alt={project.title}
@@ -67,7 +68,9 @@ export const ProjectSection = () => {
                             <div className="p-4">
                                 <div className="flex flex-wrap gap-2 mb-2">
                                     {project.tags.map((tag) => (
-                                        <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary-foreground">
+                                        <span 
+                                            key={tag}
+                                            className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary-foreground">
                                             {tag}
                                         </span>
                                     ))}
@@ -83,17 +86,16 @@ export const ProjectSection = () => {
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <ExternalLink size={20} />
                                     </a> */}
-                                    {/* <a href={project.githubUrl}
+                                    <a href={project.githubUrl}
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <Github size={20} />
-                                    </a> */}
-
+                                    </a>
                                 </div>
                             </div>
+
                         </div>
                     ))}
-
                 </div>
             </div>
 
