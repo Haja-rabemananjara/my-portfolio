@@ -36,6 +36,15 @@ const projects = [
         tags: ["Java", "Spring Boot", "Websocket", "Angular", "Tailwindcss"],
         demoUrl: "#",
         githubUrl: "https://github.com/Haja-rabemananjara/Chat-app",
+    },
+    {
+        id: 5,
+        title: "Crunching de data",
+        description: "Projet de traitement de données, de visualisation et de prédiction de prix de transport.",
+        image: "/cruching_data.jpg",
+        tags: ["Python", "Pandas", "Machine Learning", "Plotly", "Scikit-learn", "Data Analysis"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/Haja-rabemananjara/Crunching_de_data",
     }
 ]
 
