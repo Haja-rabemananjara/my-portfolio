@@ -17,7 +17,7 @@ const projects = [
         image: "/Xjob.png",
         tags: ["React", "Tailwindcss", "Shadcn/ui", "Django", "SQLLite", "Group-project"],
         demoUrl: "#",
-        githubUrl: "",
+        githubUrl: "https://github.com/Haja-rabemananjara/Jobboard_Xjob",
     },
     {
         id: 3,
