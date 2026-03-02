@@ -45,6 +45,15 @@ const projects = [
         tags: ["Python", "Pandas", "Machine Learning", "Plotly", "Scikit-learn", "Data Analysis"],
         demoUrl: "#",
         githubUrl: "https://github.com/Haja-rabemananjara/Crunching_de_data",
+    },
+    {
+        id: 6,
+        title: "EpiChat",
+        description: "Epichat est une application semblable à Discord, permettant aux utilisateurs d'échanger des messages via des messages directs ou dans des canaux.",
+        image: "/EpiChat.png",
+        tags: ["Rust", "TypeScript", "Next.js", "Websocket", "Tailwindcss"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/Haja-rabemananjara/EpiChat",
     }
 ]
 
