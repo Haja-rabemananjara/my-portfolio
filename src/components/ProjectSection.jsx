@@ -59,7 +59,7 @@ const projects = [
         id: 7,
         title: "Url Shortener",
         description: "Application de raccourcissement d'URLs.",
-        image: "/Url_shortener.png",
+        image: "/Url_Shortener.png",
         tags: ["Nest.js", "Next.js", "Docker", "Tailwindcss", "Prisma", "PostgreSQL"],
         demoUrl: "#",
         githubUrl: "https://github.com/Haja-rabemananjara/URL_shortener",
