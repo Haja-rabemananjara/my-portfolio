@@ -4,11 +4,15 @@ import imgcss from "/css.png";
 import imgJS from "/JS.png";
 import imgjava from "/java.svg";
 import imgreact from "/react.png";
-import imgangular from "/angular.webp";
 import imgVMware from "/vmware.png";
 import imgCisco from "/ciscop.png";
 import imgSQL from "/SQL.webp";
 import imgPowerBI from "/PowerBI.jpeg";
+import imgNextjs from "/Next.js.png";
+import imgTS from "/Typescript.png";
+import postgreSQL from "/postgresql.webp";
+import imgDocker from "/Docker.svg";3
+import imgNest from "/Nest.js.svg";
 
 export const SkillsSection = () => {
     const skills = [
@@ -16,13 +20,17 @@ export const SkillsSection = () => {
         { id: 2, name: "HTML", image: imghtml },
         { id: 3, name: "CSS", image: imgcss },
         { id: 4, name: "JavaScript", image: imgJS },
-        { id: 5, name: "Java", image: imgjava },
-        { id: 6, name: "React.js", image: imgreact },
-        { id: 7, name: "Angular", image: imgangular },
-        { id: 8, name: "VMware Workstation", image: imgVMware },
-        { id: 9, name: "Cisco Packet Tracer", image: imgCisco },
-        { id: 10, name: "SQL", image: imgSQL },
-        { id: 11, name: "Power BI", image: imgPowerBI },
+        { id: 5, name: "TypeScript", image: imgTS },
+        { id: 6, name: "Java", image: imgjava },
+        { id: 7, name: "React.js", image: imgreact },
+        { id: 8, name: "Next.js", image: imgNextjs },
+        { id: 9, name: "VMware Workstation", image: imgVMware },
+        { id: 10, name: "Cisco Packet Tracer", image: imgCisco },
+        { id: 11, name: "SQL", image: imgSQL },
+        { id: 12, name: "PostgreSQL", image: postgreSQL },
+        { id: 13, name: "Power BI", image: imgPowerBI },
+        { id: 14, name: "Docker", image: imgDocker },
+        { id: 15, name: "Nest.js", image: imgNest },
     ]
 
     return (
