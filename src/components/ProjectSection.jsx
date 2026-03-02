@@ -51,10 +51,20 @@ const projects = [
         title: "EpiChat",
         description: "Epichat est une application semblable à Discord, permettant aux utilisateurs d'échanger des messages via des messages directs ou dans des canaux.",
         image: "/EpiChat.png",
-        tags: ["Rust", "TypeScript", "Next.js", "Websocket", "Tailwindcss"],
+        tags: ["Rust", "TypeScript", "Next.js", "Websocket", "Tailwindcss", "Docker", "PostgreSQL", "MongoDB"],
         demoUrl: "#",
         githubUrl: "https://github.com/Haja-rabemananjara/EpiChat",
-    }
+    },
+    {
+        id: 7,
+        title: "Url Shortener",
+        description: "Application de raccourcissement d'URLs.",
+        image: "/url-shortener.png",
+        tags: ["Nest.js", "Next.js", "Docker", "Tailwindcss", "Prisma", "PostgreSQL"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/Haja-rabemananjara/URL_shortener",
+    },
+
 ]
 
 export const ProjectSection = () => {
