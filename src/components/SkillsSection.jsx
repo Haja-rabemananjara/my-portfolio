@@ -11,7 +11,7 @@ import imgPowerBI from "/PowerBI.jpeg";
 import imgNextjs from "/Next.js.png";
 import imgTS from "/Typescript.png";
 import postgreSQL from "/postgresql.webp";
-import imgDocker from "/Docker.svg";3
+import imgDocker from "/Docker.svg";
 import imgNest from "/Nest.js.svg";
 
 export const SkillsSection = () => {
